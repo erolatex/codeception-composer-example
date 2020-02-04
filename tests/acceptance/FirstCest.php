@@ -14,7 +14,6 @@ use Yandex\Allure\Adapter\Annotation\Issues;
 class PageCest extends TestCase
 {
     /**
-     * @Test
      * @Title("Test link title")
      * @Issues("SSS-1111")
      * @TestCaseId("23")
