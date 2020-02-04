@@ -6,8 +6,18 @@
 
 actor: AcceptanceTester
 modules:
-    enabled:
-        - PhpBrowser:
-            url: http://ya.ru
-        - \Helper\Acceptance
-    step_decorators: ~        
+  enabled:
+    - PhpBrowser:
+        url: https://www.website.com/
+    - \Helper\Acceptance
+  step_decorators: ~
+extensions:
+  enabled:
+    - Yandex\Allure\Codeception\AllureCodeception
+  config:
+    Yandex\Allure\Codeception\AllureCodeception:
+      deletePreviousResults: true
+      outputDirectory: allure-results
+      ignoredAnnotations:
+        - env
+        - dataprovider
