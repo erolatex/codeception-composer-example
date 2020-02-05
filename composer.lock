@@ -4,26 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fc935d3639785b3e545058a0a129b0a",
+    "content-hash": "744af9e12dac2e6822cb271844f535d9",
     "packages": [
         {
             "name": "allure-framework/allure-codeception",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/allure-framework/allure-codeception.git",
-                "reference": "6de0682d45965adc8e551db9a8d46c7fe487b92b"
+                "reference": "67eddabc9832186d2fc949bb854909fc2e773e44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/6de0682d45965adc8e551db9a8d46c7fe487b92b",
-                "reference": "6de0682d45965adc8e551db9a8d46c7fe487b92b",
+                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/67eddabc9832186d2fc949bb854909fc2e773e44",
+                "reference": "67eddabc9832186d2fc949bb854909fc2e773e44",
                 "shasum": ""
             },
             "require": {
-                "allure-framework/allure-php-api": "~1.1.0",
+                "allure-framework/allure-php-api": "~1.1.7",
                 "codeception/codeception": "^2.3|^3.0",
-                "php": ">=5.4.0",
+                "php": ">=5.6",
                 "symfony/filesystem": ">=2.6",
                 "symfony/finder": ">=2.6"
             },
@@ -55,20 +55,20 @@
                 "steps",
                 "testing"
             ],
-            "time": "2019-06-19T11:31:24+00:00"
+            "time": "2020-02-05T16:55:24+00:00"
         },
         {
             "name": "allure-framework/allure-php-api",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/allure-framework/allure-php-commons.git",
-                "reference": "2c62a70d60eca190253a6b80e9aa4c2ebc2e6e7f"
+                "reference": "243c9a2259b60c1b7a9d298d4fb3fc72b4f64c18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-php-commons/zipball/2c62a70d60eca190253a6b80e9aa4c2ebc2e6e7f",
-                "reference": "2c62a70d60eca190253a6b80e9aa4c2ebc2e6e7f",
+                "url": "https://api.github.com/repos/allure-framework/allure-php-commons/zipball/243c9a2259b60c1b7a9d298d4fb3fc72b4f64c18",
+                "reference": "243c9a2259b60c1b7a9d298d4fb3fc72b4f64c18",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "php",
                 "report"
             ],
-            "time": "2020-01-09T10:26:09+00:00"
+            "time": "2020-02-05T16:43:19+00:00"
         },
         {
             "name": "behat/gherkin",
@@ -3188,7 +3188,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
@@ -3247,16 +3247,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f"
+                "reference": "f512001679f37e6a042b51897ed24a2f05eba656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f",
-                "reference": "e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f512001679f37e6a042b51897ed24a2f05eba656",
+                "reference": "f512001679f37e6a042b51897ed24a2f05eba656",
                 "shasum": ""
             },
             "require": {
@@ -3319,11 +3319,11 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-10T21:54:01+00:00"
+            "time": "2020-01-25T12:44:29+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -3376,7 +3376,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
@@ -3437,7 +3437,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -3565,7 +3565,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.0.3",
+            "version": "v5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -3615,7 +3615,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -3664,16 +3664,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "c33998709f3fe9b8e27e0277535b07fbf6fde37a"
+                "reference": "491a20dfa87e0b3990170593bc2de0bb34d828a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/c33998709f3fe9b8e27e0277535b07fbf6fde37a",
-                "reference": "c33998709f3fe9b8e27e0277535b07fbf6fde37a",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/491a20dfa87e0b3990170593bc2de0bb34d828a5",
+                "reference": "491a20dfa87e0b3990170593bc2de0bb34d828a5",
                 "shasum": ""
             },
             "require": {
@@ -3715,11 +3715,11 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-04T13:00:46+00:00"
+            "time": "2020-01-31T09:11:17+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.0.3",
+            "version": "v5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
@@ -4073,7 +4073,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -4180,7 +4180,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
