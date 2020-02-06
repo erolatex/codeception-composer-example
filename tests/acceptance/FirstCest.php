@@ -11,7 +11,7 @@ use Yandex\Allure\Adapter\Annotation\Issues;
  * Class FirstCest
  * Tests links
  */
-class PageCest extends TestCase
+class PageCest
 {
     /**
      * @Title("Test link title")
