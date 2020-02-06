@@ -6,6 +6,9 @@ use Yandex\Allure\Adapter\Annotation\Title;
 use Yandex\Allure\Adapter\Annotation\Description;
 use Yandex\Allure\Adapter\Annotation\TestCaseId;
 use Yandex\Allure\Adapter\Annotation\Issues;
+use Yandex\Allure\Adapter\Annotation\Features;
+use Yandex\Allure\Adapter\Annotation\Stories;
+
 
 /**
  * Class FirstCest
@@ -18,6 +21,8 @@ class PageCest
      * @Issues("SSS-1111")
      * @TestCaseId("23")
      * @Description("Test link test desc")
+     * @Features({"First Feature"})
+     * @Stories({"First Story"})
      * @dataProvider pageProvider
      * @param AcceptanceTester $I
      * @param Example $example
