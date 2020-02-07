@@ -14,6 +14,8 @@ modules:
 extensions:
   enabled:
     - Yandex\Allure\Codeception\AllureCodeception
+    - Codeception\Extension\Recorder
+    - Codeception\Extension\Logger
   config:
     Yandex\Allure\Codeception\AllureCodeception:
       deletePreviousResults: true
@@ -21,3 +23,5 @@ extensions:
       ignoredAnnotations:
         - env
         - dataprovider
+    Codeception\Extension\Logger:
+      - max_files: 5
